@@ -1,13 +1,16 @@
-  <ins>***Submission Reminder App***</ins>
+  **Submission Reminder App**
+
 A Linux-Bash scripting based reminder application that helps students manage their assignments and submit them on time. It automatically tracks submissions and notifies students who haven’t completed their work.
 
   **Features**
+  
 **Automated Submission Tracking** – Scans the assignment file to identify students with pending submissions.  
 **Custom Reminders** – Provides timely reminders for students with upcoming or overdue assignments.  
 **Easy Setup** – A single script creates the necessary environment in seconds.  
 **Configurable Settings** – Easily update assignment details, such as names and due dates, through the configuration file.  
 
-  **How to Install
+  **How to Install**
+  
 1️⃣ Clone the Repository
 
         git clone https://github.com/Christian-Regnante/submission_reminder_app_Christian-Regnante.git
@@ -27,24 +30,26 @@ After setup is complete, navigate to the new created directory and start the app
         cd submission_reminder_yourName
         ./startup.sh
 
-  **Application Explained
-Reads Submission Data
+  **Application Explained**
+  
+<ins>Reads Submission Data:</ins> 
 The submissions.txt file contains a list of students and their submission status.
 
-Checks for Pending Assignments
+<ins>Checks for Pending Assignments:</ins> 
 The app compares student records against the assignment requirements and generates reminders.
 
-Displays Reminders
+<ins>Displays Reminders:</ins> 
 The script outputs a list of students who have not submitted their assignments.
 
-Configuration
+<ins>Configuration:</ins> 
 Modify the config.env file to customize settings:
 
 # IMPORTANT:
 # You can edit both confing.env and submission.txt
 # Add your desired Inputs
 
-  🔹 Output Example
+  **🔹 Output Example**
+  
 After running ./startup.sh, the script will display:
 
         Assignment: Shell Navigation
