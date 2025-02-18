@@ -1,4 +1,4 @@
-  **Submission Reminder App**
+  <ins>***Submission Reminder App***</ins>
 A Linux-Bash scripting based reminder application that helps students manage their assignments and submit them on time. It automatically tracks submissions and notifies students who haven’t completed their work.
 
   **Features**
