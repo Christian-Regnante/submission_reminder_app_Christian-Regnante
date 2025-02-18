@@ -90,20 +90,10 @@ EOF
 cat > "$parent_dir/startup.sh" << 'EOF'
 #!/usr/bin/env bash
 
-source ./config/config.env
-source ./modules/functions.sh
-
-submissions_file="./assets/submissions.txt"
-
-echo "Assignment: $ASSIGNMENT"
-echo "Days remaining to submit: $DAYS_REMAINING days"
-echo "--------------------------------------------"
-
-#Calling the function to check submission
-check_submissions "$submissions_file"
-
+"./app/reminder.sh"
 # Final message if it worked!
-echo "Reminder application executed successfully!"
+echo 
+echo "_____Reminder application executed successfully!_____"
 EOF
 
 #A readme file inside the submission reminder folder
